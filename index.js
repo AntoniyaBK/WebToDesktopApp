@@ -10,7 +10,7 @@ function createWindow() {
   });
 
   // Add URL for your Web Instance
-  win.loadURL('https://your-web.com'); 
+  win.loadURL(config.appUrl); 
 }
 
 app.whenReady().then(createWindow);
