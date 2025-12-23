@@ -50,17 +50,26 @@ Change --platform to darwin (Mac) or linux for other platforms.
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
+```
 WebApp-Desktop/
-<br> │ </br>
-<br> ├─ index.js          # Main Electron script </br>
-<br> ├─ package.json      # Node.js dependencies and scripts </br>
-<br> ├─ node_modules/     # Installed libraries </br>
-<br> ├─ .gitignore        # Ignore node_modules and other files </br>
+│
+├── index.js          # Main Electron script
+├── package.json      # Node.js dependencies and scripts
+├── config.json       # App configuration (URL, settings)
+├── .gitignore        # Ignore node_modules and other files
+└── node_modules/     # Generated after npm install
+```
 
 ## 🔧 Changing the URL
 
 In index.js add URL for Web Instance
->  win.loadURL('https://your-web-instance.com'); 
+>  win.loadURL('https://your-web-instance.com');
+
+<br> OR In config.json add your web instance </br>
+
+> "appUrl": "https://your-web-instance.com"
 
 ## 🤝 Contributing
 
