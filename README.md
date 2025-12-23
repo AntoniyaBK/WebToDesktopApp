@@ -62,6 +62,19 @@ WebApp-Desktop/
 In index.js add URL for Web Instance
 >  win.loadURL('https://your-web-instance.com'); 
 
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you want to improve this project:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/my-feature`)
+3. Commit your changes (`git commit -m "Add new feature"`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
+Feel free to open issues for suggestions, bugs or improvements.
 
 ## 📄 License
 
