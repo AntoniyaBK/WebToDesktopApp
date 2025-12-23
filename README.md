@@ -50,8 +50,6 @@ Change --platform to darwin (Mac) or linux for other platforms.
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```
 WebApp-Desktop/
 │
