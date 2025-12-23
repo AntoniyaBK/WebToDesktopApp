@@ -9,7 +9,7 @@ This is a **desktop application** built with [Electron](https://www.electronjs.o
 
 - Opens your Web in a standalone window.  
 - Can be run locally without a browser.  
-- URL can be easily changed in `main.js` or `config.json`.
+- URL can be easily changed in `index.js` or `config.json`.
 
 ---
 
@@ -52,14 +52,14 @@ Change --platform to darwin (Mac) or linux for other platforms.
 
 WebApp-Desktop/
 <br> │ </br>
-<br> ├─ main.js           # Main Electron script </br>
+<br> ├─ index.js          # Main Electron script </br>
 <br> ├─ package.json      # Node.js dependencies and scripts </br>
 <br> ├─ node_modules/     # Installed libraries </br>
 <br> ├─ .gitignore        # Ignore node_modules and other files </br>
 
 ## 🔧 Changing the URL
 
-In main.js add URL for Web Instance
+In index.js add URL for Web Instance
 >  win.loadURL('https://your-web-instance.com'); 
 
 
